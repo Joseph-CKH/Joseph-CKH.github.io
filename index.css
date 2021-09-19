@@ -1,0 +1,226 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+/* menubar */
+
+.bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topbar a {
+    text-decoration: none;
+    padding: 0% 40px;
+    color: rgb(0, 0, 0);
+}
+
+.img_logo {
+    padding: 1% 2%;
+    width: 5%;
+    height: auto;
+}
+
+
+/* Home */
+
+.Home {
+    align-items: center;
+    background-color: rgb(255, 227, 217);
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 0%;
+}
+
+.motion_name {
+    padding: 5% 0%;
+}
+
+.Hometext {
+    padding-left: 15%;
+}
+
+.Home>img {
+    padding-right: 10%;
+    transform: rotate( -10deg);
+    width: 30%;
+    height: auto;
+}
+
+
+/* About Me */
+
+.About_Me {
+    padding: 2% 0%;
+}
+
+.About_Me>h1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+
+.AM {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.About_img_Box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: auto;
+    border: 1px none;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px -10px black;
+    margin-left: 15%;
+}
+
+.About_img {
+    width: 20vw;
+    height: auto;
+}
+
+.About_text>h1 {
+    padding-bottom: 1%;
+}
+
+.About_text>h4 {
+    padding-bottom: 5%;
+}
+
+.About_text {
+    padding: 0% 10% 0% 0%;
+}
+
+
+/* My Skills */
+
+.My_Skills {
+    padding: 2% 0%;
+    background-color: rgb(255, 227, 217);
+}
+
+.My_Skills>h1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+
+.Skills_Area {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.FED,
+.MM {
+    display: flex;
+    width: 20%;
+    height: auto;
+    border-radius: 60px 60px 0px / 0px 60px;
+    box-shadow: 0px 0px 20px -10px black;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.FED {
+    /* margin-left: 10%; */
+    padding: 5% 0%;
+}
+
+.FED>img,
+.MM>img {
+    width: 40%;
+    height: auto;
+}
+
+.FED>h4,
+.MM>h4 {
+    padding-top: 5%;
+}
+
+.FED_icons {
+    padding: 0% 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.FED_icons>img {
+    width: 22%;
+    margin-top: 25%;
+}
+
+.MM {
+    /* margin-right: 10%; */
+    padding: 3% 0%;
+}
+
+.MM_icons {
+    margin-top: 15%;
+    padding: 0% 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.MM_icons>.icons {
+    width: 15%;
+    margin: 1% 0%;
+}
+
+.MM_icons>img {
+    padding: 0% 1%;
+}
+
+
+/* portfolio */
+
+.portfolio {
+    padding: 2% 0%;
+}
+
+.portfolio>h1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+
+.todolist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px -10px black;
+    /* margin-left: 15%; */
+    padding: 30px;
+    cursor: pointer;
+}
+
+.todolist>img {
+    width: 100%;
+}
+
+.todolist>p {
+    position: absolute;
+    background-color: rgb(255, 227, 217);
+    opacity: 80%;
+    font-weight: bold;
+    font-size: 25px;
+    width: 18%;
+    text-align: center;
+}
+
+.project {
+    display: flex;
+    justify-content: space-evenly;
+}

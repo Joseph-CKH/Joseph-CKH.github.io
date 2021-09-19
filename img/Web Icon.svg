@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 151.57 119.35" style="enable-background:new 0 0 151.57 119.35;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F4B2B5;stroke:#F4B2B5;stroke-width:5;stroke-miterlimit:10;}
+	.st1{fill:#F8E2D8;stroke:#F4B2B5;stroke-width:5;stroke-miterlimit:10;}
+	.st2{fill:#B8DAD2;}
+	.st3{fill:#F5F5F5;}
+	.st4{fill:none;stroke:#F5F5F5;stroke-width:11.1106;stroke-linecap:round;stroke-miterlimit:10;}
+</style>
+<g>
+	<path class="st0" d="M129.91,2.5H21.66C11.08,2.5,2.5,11.08,2.5,21.66v10.43h146.57V21.66C149.07,11.08,140.49,2.5,129.91,2.5z"/>
+	<path class="st1" d="M2.5,32.09V97.7c0,10.58,8.58,19.15,19.16,19.15h108.26c10.58,0,19.16-8.58,19.16-19.15V32.09H2.5z"/>
+	<g>
+		<g>
+			<path class="st2" d="M59.89,65.02l-20.56,9.45l20.56,9.38v9.69L30.5,79.51V69.43l29.39-14.03V65.02z"/>
+			<path class="st2" d="M81.99,45.39h8.58L70.2,103.55h-8.58L81.99,45.39z"/>
+			<path class="st2" d="M121.07,69.43v10.07L91.68,93.53v-9.69l20.56-9.38l-20.56-9.45v-9.61L121.07,69.43z"/>
+		</g>
+	</g>
+	<g>
+		<ellipse transform="matrix(0.1605 -0.987 0.987 0.1605 2.3916 37.4004)" class="st3" cx="23.18" cy="17.29" rx="7.31" ry="7.31"/>
+		
+			<ellipse transform="matrix(0.2305 -0.9731 0.9731 0.2305 19.271 58.9568)" class="st3" cx="46.91" cy="17.29" rx="7.31" ry="7.31"/>
+		
+			<ellipse transform="matrix(0.1605 -0.987 0.987 0.1605 42.2286 84.2407)" class="st3" cx="70.64" cy="17.29" rx="7.31" ry="7.31"/>
+		<line class="st4" x1="92.29" y1="17.29" x2="135.69" y2="17.29"/>
+	</g>
+</g>
+</svg>
