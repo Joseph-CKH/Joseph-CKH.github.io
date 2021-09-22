@@ -10,47 +10,57 @@
     <link href="./index.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header class="bar">
         <img class="img_logo" src="./img/bear_logo.png" alt="logo">
         <div class="topbar">
-            <a href=" ">Home</a>
-            <a href=" ">About</a>
-            <a href=" ">Skills</a>
-            <a href=" ">Project</a>
-            <a href=" ">Contact</a>
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Skills">Skills</a>
+            <a href="#portfolio">Project</a>
+            <a href="#Contact">Contact</a>
         </div>
     </header>
 
-    <div class="Home">
+    <div class="Home" id="Home">
         <div class="Hometext">
             <h2>Hello There!</h2>
-            <h1 class="motion_name">Hi! I'M JOSEPH CHAN</h1>
-            <h4>Hello, I am a Multimedia Designer &<br> Front-end Web Developer</h4>
+            <div class="motion_name">
+                <span>Hello! I'm</span>
+                <div class="dropping-texts">
+                    <div>&nbsp Joseph Chan</div>
+                    <div>&nbsp Assistant Designerr</div>
+                    <div>&nbsp Junior Front-end Web Developer</div>
+                </div>
+            </div>
+            <h4>Hello, I am a Assistant Designerr & Junior Front-end Web Developer</h4>
         </div>
         <img src="./img/About_Me.svg" alt="">
     </div>
 
-    <div class="About_Me">
-        <h1>About Me</h1>
+    <div class="About_Me" id="About">
+        <div class="About_Me_Title"> <span style="color: rgb(255, 182, 185)">About</span><span>&nbsp Me</span></div>
+
         <div class="AM">
             <div class="About_img_Box">
                 <img class="About_img" src="./img/IMG_9672.png" alt="">
             </div>
             <div class="About_text">
                 <h1>I'm Joseph Chan</h1>
-                <h4>Hello, I am a Multimedia Designer &<br> Front-end Web Developer</h4>
-                <p>An optimistic multimedia designer with nearly two years <br> experience in exhibition and event design. <br>Looking for a challenging role in a reputable organization <br> to utilize my IT technical, Design skills for the growth of the
+                <h4>Hello, I am a Assistant Designer &<br> Junior Front-end Web Developer</h4>
+                <p>An optimistic Multimedia Designer with nearly two years <br> experience in exhibition and event design. <br>Looking for a challenging role in a reputable organization <br> to utilize my IT technical, Design skills for the growth of the
                     <br> organization as well as to enhance my knowledge about new <br>and emerging trends in the IT sector.</p>
             </div>
         </div>
     </div>
 
-    <div class="My_Skills">
-        <h1>MYSKILLLS</h1>
+    <div class="My_Skills" id="Skills">
+        <div class="My_Skills_Title"> <span style="color: rgb(255, 182, 185)">MY</span><span>&nbsp SKILLLS</span></div>
         <div class="Skills_Area">
             <div class="FED">
                 <img src="./img/Web Icon.svg" alt="">
@@ -64,7 +74,7 @@
             </div>
             <div class="MM">
                 <img src="./img/MM_icon.svg" alt="">
-                <h4>Multimedia</h4>
+                <h4>Multimedia Design</h4>
                 <div class="MM_icons">
                     <img class="icons" src="./img/MM/photoshop.svg" alt="">
                     <img class="icons" src="./img/MM/illustrator.svg" alt="">
@@ -79,9 +89,10 @@
 
     </div>
 
-    <div class="portfolio">
-        <h1>MY PORTFOLIO</h1>
-        <div class="project">
+    <div class="portfolio" id="portfolio">
+        <div class="My_Portfolio_Title"> <span style="color: rgb(255, 182, 185)">MY</span><span>&nbsp PORTFOLIO</span></div>
+
+        <div id="FEWD_Project" class="project" style="display: flex;">
             <div class="todolist" onclick="location.href='./Joseph_Portfolio/GENJVK.github.io/public/index.html'" ;>
                 <img src="./img/bear_logo.png" alt="">
                 <p>To Do List</p>
@@ -91,8 +102,32 @@
                 <p>Login</p>
             </div>
         </div>
+
+        <div class="MM_Project" id="MM_Project" style="display:none">
+
+            <div class="fullproject" id="fullproject">
+                <button id="pre" οnclick="getProImg()"> < </button>
+                <img src="./Joseph_Portfolio/MM/portfolio_01.jpg">
+                <button id="next" οnclick="getNextImg()">></button>
+            </div>
+
+            <div class="fullproject_title">
+                <p id="pid"></p>
+            </div>
+        </div>
+
+        <input type="button" class="showHidden" value="Click Me" id="showHidden">
     </div>
 
+    <div class="Contact" id="Contact">
+        <div class="Contact_Title"><span>Contact</span></div>
+        <ul class="Contact_text">
+            <li>Phone Number： 6440 5084</li>
+            <li>Email： Josephckh.mm@gmail.com</li>
+            <li>Github： github.com/Joseph-CKH/fewd-c02</li>
+        </ul>
+    </div>
+    <script type="text/javascript" src="./index.js"></script>
 </body>
 
 </html>
